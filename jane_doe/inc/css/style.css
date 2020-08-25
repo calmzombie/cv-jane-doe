@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/* mise en forme globale --- remise à 0 des marges/paddings */
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ededed;
+}
+
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* mise en forme header */
+header{
+    background-image: url(../img/etoiles.jpg);
+    background-size: cover;
+    height: 120px;
+    padding: 20px 0px;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 0 15px #333;
+}
+
+h1, header p{
+    color: #fff;
+    margin: auto;
+    width: 85%;
+}
+
+header p{
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 400;
+}
